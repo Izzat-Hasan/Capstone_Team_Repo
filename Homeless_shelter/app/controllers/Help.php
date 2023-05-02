@@ -125,7 +125,7 @@ Class Help extends Controller{
             
             
           } else {
-            // Load view with errors
+            // Loads view with errors
             $this->view('Help/edit', $data);
           }
   

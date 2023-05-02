@@ -5,7 +5,7 @@
 <p><?php echo $data ['distributor']->email; ?></p>
 <?php 
     if($data['distributor']->number != ''){?>
-      <p>Team: <?php echo $data['distributor']->number; ?></p>
+      <p>Teams: <?php echo $data['distributor']->number; ?></p>
     <?php } ?>
 <hr>
 <a href="<?php echo URLROOT; ?>/distributors/edit/<?php echo $data['distributor']->id; ?>" class="btn btn-dark">Edit</a>

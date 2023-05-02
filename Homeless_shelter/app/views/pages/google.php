@@ -63,7 +63,7 @@
     </div>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkfhsssD43_leiFj6Wd2i4Cm8FXNqJd9A&libraries=places"></script>
     <script>
-      // Initialize the map
+      // Initializes the map
       var map;
       function initMap() {
         // Default map center

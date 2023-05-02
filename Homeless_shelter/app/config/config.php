@@ -1,5 +1,5 @@
 <?php
-   // DB Params
+   // DBs Params
    define("DB_HOST", "localhost");
    define("DB_USER", "php_user");
    define("DB_PASS", "secure_password");
